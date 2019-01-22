@@ -15,7 +15,7 @@ class Levels {
 		$array[9] = 5850;
 		$array[10] = 7000;
 
-		echo "INSERT INTO `LEVEL_REP` (`level`, `expPoint`) VALUES".PHP_EOL;
+		echo "INSERT INTO `LEVEL_REP` (`level`, `expPoint`) VALUES ".PHP_EOL;
 
 		for ($i=1; $i <= $levels; $i++) {
 			if($i <= 10) {
